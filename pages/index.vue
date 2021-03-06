@@ -6,6 +6,7 @@
         <vuetify-logo />
       </div>
       <TemplateComponent />
+      <JsxComponent />
       <v-card>
         <v-card-title class="headline">
           Welcome to the Vuetify + Nuxt.js template
@@ -85,12 +86,14 @@
 import Logo from '~/components/Logo.vue'
 import VuetifyLogo from '~/components/VuetifyLogo.vue'
 import TemplateComponent from '~/components/template-component.vue'
+import JsxComponent from '~/components/template-jsx.vue'
 
 export default {
   components: {
     Logo,
     VuetifyLogo,
     TemplateComponent,
+    JsxComponent,
   },
 }
 </script>
