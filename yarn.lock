@@ -6505,6 +6505,15 @@ jest-config@^26.6.3:
     micromatch "^4.0.2"
     pretty-format "^26.6.2"
 
+jest-css-modules-transform@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/jest-css-modules-transform/-/jest-css-modules-transform-4.2.0.tgz#20413893634375aef29b31cd66c8d8149eb297ed"
+  integrity sha512-rprh8a4eULFVTnGzX1VRPXSlohS61nnCnkSwdfODhL4ZSDUQBW/oe0UMa9FatYjE+EDaWtKKzsp1lWdzWOT5MA==
+  dependencies:
+    camelcase "^6.2.0"
+    postcss "^7.0.30 || ^8.0.0"
+    postcss-nested "^4.2.1 || ^5.0.0"
+
 jest-diff@^26.6.2:
   version "26.6.2"
   resolved "https://registry.yarnpkg.com/jest-diff/-/jest-diff-26.6.2.tgz#1aa7468b52c3a68d7d5c5fdcdfcd5e49bd164394"
@@ -8733,6 +8742,13 @@ postcss-modules@^4.0.0:
     postcss-modules-values "^4.0.0"
     string-hash "^1.1.1"
 
+"postcss-nested@^4.2.1 || ^5.0.0":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/postcss-nested/-/postcss-nested-5.0.5.tgz#f0a107d33a9fab11d7637205f5321e27223e3603"
+  integrity sha512-GSRXYz5bccobpTzLQZXOnSOfKl6TwVr5CyAQJUPub4nuRJSOECK5AqurxVgmtxP48p0Kc/ndY/YyS1yqldX0Ew==
+  dependencies:
+    postcss-selector-parser "^6.0.4"
+
 postcss-nesting@^7.0.0:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/postcss-nesting/-/postcss-nesting-7.0.1.tgz#b50ad7b7f0173e5b5e3880c3501344703e04c052"
@@ -9042,7 +9058,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.1.10, postcss@^8.2.1:
+"postcss@^7.0.30 || ^8.0.0", postcss@^8.1.10, postcss@^8.2.1:
   version "8.2.7"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.2.7.tgz#48ed8d88b4de10afa0dfd1c3f840aa57b55c4d47"
   integrity sha512-DsVLH3xJzut+VT+rYr0mtvOtpTjSyqDwPf5EZWXcb0uAKfitGpTY9Ec+afi2+TgdN8rWS9Cs88UDYehKo/RvOw==

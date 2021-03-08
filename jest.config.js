@@ -8,6 +8,7 @@ module.exports = {
   transform: {
     '^.+\\.js$': 'babel-jest',
     '.*\\.(vue)$': 'vue-jest',
+    '.+\\.(css|styl|less|sass|scss)$': 'jest-css-modules-transform',
   },
   collectCoverage: true,
   collectCoverageFrom: [
