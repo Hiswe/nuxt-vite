@@ -1,5 +1,8 @@
 <template>
-  <p class="template-component">pouic</p>
+  <p class="template-component">
+    pouic
+    <VBtn>clapour </VBtn>
+  </p>
 </template>
 
 <style>
